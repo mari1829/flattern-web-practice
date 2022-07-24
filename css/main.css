@@ -1,0 +1,67 @@
+.container{
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+    outline: solid 2px red;
+}
+
+.pg1-flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #2b2320
+}
+
+.logo{
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.icon i{
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.back-img{
+    background-image: url(/images/pg1-img.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
+
+/* 
+@media (min-width:300px){
+    .container{
+       max-width: 285;
+        height: 200px;
+        outline: solid 2px green;
+    }
+}
+
+@media (min-width:700px){
+    .container{
+       max-width: 685px;
+        height: 200px;
+        outline: solid 2px rgb(233, 229, 11);
+    }
+}
+
+@media (min-width:1350px){
+    .container{
+        max-width: 1335px;
+        height: 200px;
+        outline: solid 2px rgb(4, 230, 238);
+    }
+} */
